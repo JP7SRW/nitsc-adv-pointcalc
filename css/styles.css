@@ -4,3 +4,37 @@ h1 {
   padding: 4px;
   color: #234354;
 }
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  /* width: 530px */
+  width: 80%;
+}
+
+caption {
+  padding: 0.5em;
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #234354;
+}
+
+input {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+}
+
+table th,table td{
+  border: solid 2px black;
+}
+
+table th {
+  padding: 10px;
+}
+
+table td {
+  padding: 3px 10px;
+}
