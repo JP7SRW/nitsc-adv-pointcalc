@@ -1,5 +1,5 @@
 h1 {
-  font-size: 20px;
+  font-size: 19px;
   width: 100%;
   text-align: center;
   margin: 0px;
@@ -7,11 +7,27 @@ h1 {
   color: #234354;
 }
 
+header p {
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  color: #404040;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: #404040;
+}
+
 table {
   text-align: center;
   table-layout: auto;
   border-collapse: collapse;
-  /* width: 530px */
   width: 90%;
 }
 
@@ -45,8 +61,10 @@ table th,table td{
 
 table th {
   padding: 10px;
+  color: #000;
 }
 
 table td {
   padding: 3px 10px;
+  color: #000;
 }
