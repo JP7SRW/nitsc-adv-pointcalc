@@ -1,16 +1,10 @@
 score = 0;
+credit = 0;
 point_S = 0;
 point_A = 0;
 point_B = 0;
 point_C = 0;
-credit = 0;
 point_all = 0;
-score_temp = 0;
-credit_temp = 0;
-point_S_temp = 0;
-point_A_temp = 0;
-point_B_temp = 0;
-point_C_temp = 0;
 tbl_3rd = document.getElementById("tbl_3rd");
 tbl_4th = document.getElementById("tbl_4th");
 tbl_rslt = document.getElementById("tbl_rslt");
