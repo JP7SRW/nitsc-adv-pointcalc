@@ -9,9 +9,18 @@ h1 {
 
 table {
   text-align: center;
+  table-layout: auto;
   border-collapse: collapse;
   /* width: 530px */
-  width: 80%;
+  width: 90%;
+}
+
+.subject {
+  width: 50%;
+}
+
+.credit {
+  width: 10%;
 }
 
 caption {
@@ -22,8 +31,9 @@ caption {
 }
 
 input {
+  text-align: center;
   width: 100%;
-  font-size: 16px;
+  font-size: 30px;
   border-radius: 3px;
   border: 2px solid #ddd;
   box-sizing: border-box;
