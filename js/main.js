@@ -44,15 +44,18 @@ function Calc(x,tbl){
   if(!isNaN(score) && 100 >= score && score >= 60){
 
     credit -= credit_temp;
+    console.log(point_S,point_S_temp);
     point_S -= point_S_temp;
+    console.log(point_S);
     point_A -= point_A_temp;
     point_B -= point_B_temp;
     point_C -= point_C_temp;
 
     credit += Number(tbl.rows[x].cells[1].innerText);
-    console.log(credit + "を追加");
+    console.log(Number(tbl.rows[x].cells[1].innerText) + "を追加");
 
     if(100 >= score && score >= 90){
+      console.log(point_S);
       point_S += Number(tbl.rows[x].cells[1].innerText);
     } else if(89 >= score && score >= 80){
       point_A += Number(tbl.rows[x].cells[1].innerText);
@@ -62,6 +65,7 @@ function Calc(x,tbl){
       point_C += Number(tbl.rows[x].cells[1].innerText);
     }
 
+    console.log(point_S,point_A,point_B,point_C,credit);
     point_all = ((point_S * 4)+(point_A * 3)+(point_B * 2)+point_C) / credit;
 
     ChangeResult();
