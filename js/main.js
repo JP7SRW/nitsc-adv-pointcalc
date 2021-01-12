@@ -87,6 +87,8 @@ function Calc(x,tbl){
 
 function ChangeResult(){
 
+  point_all = Math.round(point_all * 1000) / 1000;
+
   tbl_rslt.rows[1].cells[0].innerHTML = credit;
   tbl_rslt.rows[1].cells[1].innerHTML = point_S;
   tbl_rslt.rows[1].cells[2].innerHTML = point_A;
