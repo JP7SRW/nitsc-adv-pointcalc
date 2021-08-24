@@ -1,2 +1,4 @@
 # nitsc-adv-pointcalc
-仙台高専専攻科推薦入学の学科内席次廃止に伴ったポイント制の為の計算機
+仙台高専専攻科推薦入試でのポイントを計算するためのウェブソフトです。
+
+https://jp7srw.github.io/nitsc-adv-pointcalc/
